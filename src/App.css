@@ -1,0 +1,331 @@
+body {
+    font-family: 'Century Gothic Paneuropean', sans-serif; 
+    margin: 0;   
+    padding: 0;
+}
+
+/* Landing Page CSS */
+.landing {
+    width: 100%;
+    height: 100vh;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+}
+
+.landingWrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.landingTitleWrap {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+.landingTitle {
+    font-size: 50px;
+    text-align: center;
+}
+
+.landingContentWrap{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.landingContentWrap p {
+    font-size: 16px;
+    line-height: 2.1;
+}
+
+.startBtn {
+    width: 120px;
+    height: 44px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #25a39d;
+    border-radius: 35px;
+    color: white;
+    cursor: pointer;
+
+    margin-top: 30px;
+}
+
+.startBtn:hover {
+    width: 120px;
+    height: 44px;
+    border: solid 1.5px #25a39d;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #eeeeee;
+    border-radius: 35px;
+    color: #25a39d;
+    cursor: pointer;
+
+    margin-top: 30px;
+    transition: 1s ease-out;
+}
+
+
+/* Viewer Page CSS */
+.viewer {
+    width: 100%;
+    height: 100vh;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+}
+
+.viewer-header {
+    margin-top: 20px;
+}
+
+.viewer-header h1{
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.viewer-header input {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.viewer-header input[type=file]::file-selector-button {
+    width: 120px;
+    height: 30px;
+    background: #fff;
+    border: none;
+    background-color:  #b4586d;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 5px;
+  }
+.viewer-header input[type=file]::file-selector-button:hover {
+    width: 120px;
+    height: 30px;
+    background: #fff;
+    border: none;
+    background-color:  #984a5c;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 5px;
+  }
+
+/* ModelViewer CSS */
+.modelViewerMenuWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+/* BUTTON CSS */
+.division-line {
+    margin-top: 2px;
+    border: solid 0.8px #25a39d;
+    height: 25px;
+    margin-left: 6px;
+    margin-right: 6px;
+    
+}
+
+.modelViewerMenuWrap input {
+    width: 50px;
+    height: 30px;
+    border: solid 1.5px #25a39d;
+    border-radius: 5px;
+    margin-right: 2.5px;
+    cursor: pointer;
+}
+.modelViewerMenuWrap input:hover {
+    width: 50px;
+    height: 30px;
+    border: solid 1.5px #b4586d;
+    border-radius: 5px;
+    margin-right: 2.5px;
+    cursor: pointer;
+}
+
+
+.rotateBtnUp {
+    height: 30px;
+    border: solid 1.5px #25a39d;
+    border-radius: 5px;
+    color:#25a39d;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 5px;
+    margin-left: 2.5px;
+}
+.rotateBtnUp:hover {
+    height: 30px;
+    background-color: #25a39d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 5px;
+    margin-left: 2.5px;
+}
+.rotateBtnDown {
+    height: 30px;
+    border: solid 1.5px #25a39d;
+    border-radius: 5px;
+    color:#25a39d;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.rotateBtnDown:hover {
+    height: 30px;
+    background-color: #25a39d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.rotateBtnLeft {
+    height: 30px;
+    border: solid 1.5px #25a39d;
+    border-radius: 5px;
+    color:#25a39d;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.rotateBtnLeft:hover {
+    height: 30px;
+    background-color: #25a39d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.rotateBtnRight {
+    height: 30px;
+    border: solid 1.5px #25a39d;
+    border-radius: 5px;
+    color:#25a39d;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 2.5px;
+}
+.rotateBtnRight:hover {
+    height: 30px;
+    background-color: #25a39d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.zoomInBtn {
+    height: 30px;
+    border: solid 1.5px #25a39d;
+    border-radius: 5px;
+    color:#25a39d;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 5px;
+    margin-left: 2.5px;
+
+}
+.zoomInBtn:hover {
+    height: 30px;
+    background-color: #25a39d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 5px;
+    margin-left: 2.5px;
+}
+.zoomOutBtn {
+    height: 30px;
+    border: solid 1.5px #25a39d;
+    border-radius: 5px;
+    color:#25a39d;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 2.5px;
+}
+.zoomOutBtn:hover {
+    height: 30px;
+    background-color: #25a39d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.ambientBtn {
+    height: 30px;
+    border: solid 1.5px #25a39d;
+    border-radius: 5px;
+    color:#25a39d;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 2.5px;
+
+    font-weight: 600;
+}
+.ambientBtn:hover {
+    height: 30px;
+    background-color: #25a39d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    font-weight: 600;
+}
+.directionalBtn {
+    height: 30px;
+    border: solid 1.5px #25a39d;
+    border-radius: 5px;
+    color:#25a39d;
+    cursor: pointer;
+    margin-right: 5px;
+    font-weight: 600;
+}
+.directionalBtn:hover {
+    height: 30px;
+    background-color: #25a39d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    font-weight: 600;
+}
+.pointBtn {
+    height: 30px;
+    border: solid 1.5px #25a39d;
+    border-radius: 5px;
+    color:#25a39d;
+    cursor: pointer;
+    font-weight: 600;
+}
+.pointBtn:hover {
+    height: 30px;
+    background-color: #25a39d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
